@@ -19,13 +19,13 @@ const STATS = [
   },
   {
     icon: Code2,
-    value: "10+",
+    value: "5+",
     label: "Completed Projects",
     description: "Frontend apps & UI templates",
   },
   {
     icon: Palette,
-    value: "15+",
+    value: "10+",
     label: "Tech & Tools",
     description: "React, Next.js, Tailwind, Node & more",
   },
@@ -124,7 +124,7 @@ export default function About() {
                   "React ",
                   "Next.js",
                   "Tailwind CSS",
-                  "Node.js",
+                  "JavaScript(ES6+)",
                   "UI/UX",
                 ].map((tech, idx) => (
                   <span

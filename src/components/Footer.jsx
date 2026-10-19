@@ -53,14 +53,14 @@ export default function Footer() {
                   </div>
                 </div>
                 <span className="text-xl font-extrabold tracking-tight">
-                  <span className="text-white">Alif</span>
+                  <span className="text-white">Md</span>
                   <span className="bg-gradient-to-r from-cyan-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent font-black ml-1">
-                    .dev
+                    Alif
                   </span>
                 </span>
               </a>
               <p className="text-xs text-slate-400 max-w-xs">
-                Computer Science &amp; Technology (CST) student at Pabna Polytechnic Institute. Full-Stack Developer &amp; UI Designer.
+                Computer Science &amp; Technology (CST) student at Pabna Polytechnic Institute. Frontend Developer
               </p>
             </div>
 
@@ -116,9 +116,9 @@ export default function Footer() {
             
             {/* Copyright Note */}
             <div className="flex items-center gap-1.5 text-xs text-slate-400 text-center order-2 lg:order-1">
-              <span>© {new Date().getFullYear()} Md. Alif. Built with</span>
+              <span>© {new Date().getFullYear()} Md Alif. Built with</span>
               <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline shrink-0" />
-              <span>using React 19 &amp; Tailwind CSS.</span>
+              <span>using React  &amp; Tailwind CSS.</span>
             </div>
 
             {/* Touch-Friendly Back to Top Button */}
