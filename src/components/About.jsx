@@ -21,7 +21,7 @@ const STATS = [
     icon: Code2,
     value: "10+",
     label: "Completed Projects",
-    description: "Full-stack apps, SPAs & UI templates",
+    description: "Frontend apps & UI templates",
   },
   {
     icon: Palette,
