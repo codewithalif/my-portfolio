@@ -81,7 +81,7 @@ export default function Footer() {
             {/* Social Links (Aligned center on mobile, grouped on desktop) */}
             <div className="flex items-center justify-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/codewithalif"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/50 text-slate-400 hover:text-cyan-400 transition-all duration-200 active:scale-95 touch-manipulation shadow-sm group"
@@ -91,7 +91,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/alif-hosen-51b658441/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-400 hover:text-indigo-400 transition-all duration-200 active:scale-95 touch-manipulation shadow-sm group"
@@ -101,7 +101,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:alif@developer.example"
+                href="mailto:programmingwithalif@gmail.com"
                 className="p-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-purple-500/50 text-slate-400 hover:text-purple-400 transition-all duration-200 active:scale-95 touch-manipulation shadow-sm group"
                 aria-label="Email Alif"
               >

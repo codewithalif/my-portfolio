@@ -31,7 +31,7 @@ export default function Contact() {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard?.writeText('alif@developer.example');
+    navigator.clipboard?.writeText('programmingwithalif@gmail.com');
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
@@ -87,10 +87,10 @@ export default function Contact() {
                         Email Address
                       </div>
                       <a
-                        href="mailto:alif@developer.example"
+                        href="mailto:programmingwithalif@gmail.com"
                         className="text-white hover:text-cyan-400 font-medium text-sm sm:text-base transition-colors truncate block"
                       >
-                        alif@developer.example
+                        programmingwithalif@gmail.com
                       </a>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export default function Contact() {
 
                 <div className="grid grid-cols-2 gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/codewithalif"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center gap-2.5 min-h-[48px] py-3 px-4 rounded-xl bg-slate-950/70 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 text-slate-300 hover:text-white transition-all active:scale-95 touch-manipulation text-sm font-semibold group shadow-sm"
@@ -163,7 +163,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/alif-hosen-51b658441/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center gap-2.5 min-h-[48px] py-3 px-4 rounded-xl bg-slate-950/70 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/40 text-slate-300 hover:text-white transition-all active:scale-95 touch-manipulation text-sm font-semibold group shadow-sm"

@@ -13,13 +13,13 @@ import { ScrollReveal, StaggerContainer, StaggerItem } from './ScrollReveal';
 const STATS = [
   {
     icon: Rocket,
-    value: "2+ Years",
+    value: "6+Months",
     label: "Hands-on Coding",
     description: "Continuous learning & real-world building",
   },
   {
     icon: Code2,
-    value: "25+",
+    value: "10+",
     label: "Completed Projects",
     description: "Full-stack apps, SPAs & UI templates",
   },
@@ -101,9 +101,9 @@ export default function About() {
               </div>
 
               {/* Profile Card Info */}
-              <h3 className="text-2xl font-bold text-white mb-1">Md. Alif</h3>
+              <h3 className="text-2xl font-bold text-white mb-1">Md Alif</h3>
               <p className="text-sm font-medium text-cyan-400 mb-3 font-mono">
-                Full-Stack Web Developer &amp; UI Designer
+                Frontend Developer 
               </p>
 
               {/* Education & Location Pills */}
@@ -121,7 +121,7 @@ export default function About() {
               {/* Key Skill Badges on Profile Card */}
               <div className="w-full pt-4 border-t border-slate-800/80 flex flex-wrap justify-center gap-1.5">
                 {[
-                  "React 19",
+                  "React ",
                   "Next.js",
                   "Tailwind CSS",
                   "Node.js",
@@ -172,7 +172,7 @@ export default function About() {
                 robust full-stack engineering
               </strong>{" "}
               and{" "}
-              <strong className="text-slate-200">aesthetic UI design</strong>. I
+              <strong className="text-slate-200">UI design</strong>. I
               don&apos;t just write backend APIs or component logic; I obsess
               over typography, spacing, responsive ergonomics, and fluid
               animations to ensure every digital product feels responsive,
@@ -185,11 +185,11 @@ export default function About() {
                 <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
                 <div className="text-sm">
                   <span className="font-semibold text-white">
-                    Full-Stack Development:{" "}
+                    Frontend Development:{" "}
                   </span>
                   <span className="text-slate-400">
-                    Architecting end-to-end web apps with React, Next.js,
-                    Node.js, Express, and modern databases.
+                    Architecting end-to-end web apps with React, Next.js.
+                    
                   </span>
                 </div>
               </div>
