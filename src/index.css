@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased bg-[#030712] text-slate-100 selection:bg-indigo-500 selection:text-white;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Micro Floating Tech Shapes Keyframes */
+@keyframes microFloat1 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(18px, -28px, 0) rotate(8deg);
+  }
+}
+
+@keyframes microFloat2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(-22px, 22px, 0) rotate(-10deg);
+  }
+}
+
+@keyframes microFloat3 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(14px, 20px, 0) rotate(12deg);
+  }
+}
+
+.animate-micro-1 {
+  animation: microFloat1 14s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-micro-2 {
+  animation: microFloat2 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-micro-3 {
+  animation: microFloat3 16s ease-in-out infinite;
+  will-change: transform;
+}
